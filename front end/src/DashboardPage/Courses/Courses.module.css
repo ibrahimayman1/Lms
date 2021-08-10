@@ -1,0 +1,41 @@
+.Courses {
+    margin: auto;
+    margin-left: 10px;
+    background-color: #fff;
+    width: 100%;
+    padding: 27px;
+    max-height: 100%;
+    overflow: auto;
+}
+
+.CoursesHeader {
+    display: flex;
+
+}
+
+.Courses h3 {
+    color: #28a7ea;
+    font-weight: 600;
+    display: inline-block;
+    width: 100%;
+}
+
+.Courses button:hover{
+    box-shadow: 0px 2px 11px 3px #ccc !important;
+}
+
+.CoursesContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+}
+
+.NoCoursesMeesage {
+    margin: 50px auto;
+    text-align: center;
+    display: block;
+    color: #a59ea5;
+}
+
+

@@ -1,0 +1,99 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #f5f5f5;
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  background-color:#f5f5f5;
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #afafaf;
+  border-radius: 8%;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color:#828282;
+}
+
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+::selection {
+  background-color: #28a7ea;
+  color: #ffffff;
+}
+
+.makeFade {
+  animation: fade 0.4s ease-in-out 0s 1 none normal;
+}
+
+.makeFade1 {
+  animation: fade 0.5s ease-in-out 0s 1 none normal;
+}
+
+.visible {
+  visibility: visible;
+  animation: fade 0.5s ease-in-out 0s 1 none normal;
+}
+.hidden {
+  display: none;
+}
+
+
+input {
+  display: block;
+  outline: none;
+  padding: 13px;
+  border: 1px solid #eaeaea;
+  box-shadow: 0px 2px 7px -5px #ccc;
+  height: 41px;
+  color:#737373;
+}
+
+
+input:focus {
+  outline: none;
+}
+
+@keyframes fade {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+
+@keyframes bom {
+  0% {
+    width: 0;
+    visibility: hidden;
+  }
+  50% {
+    width: 70%;
+    visibility:visible;
+  }
+  100% {
+    width: 100%;
+    visibility: hidden;
+  }
+}
+
+.ql-editor {
+  min-height: 200px;
+}
+
+input[type=time]::-webkit-datetime-edit-ampm-field {
+  display: none;
+  }

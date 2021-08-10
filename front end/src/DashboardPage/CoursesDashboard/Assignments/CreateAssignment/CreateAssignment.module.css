@@ -1,0 +1,8 @@
+.NameAssignmentInput, .PointsOfAssignmentInput {
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.NameAssignmentInput:focus, .PointsOfAssignmentInput:focus {
+    border:.5px solid #d2eaff;
+}

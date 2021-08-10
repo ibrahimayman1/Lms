@@ -1,0 +1,67 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+  
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+hr {
+      margin-top: 0;
+      margin-bottom: 0;
+      border: 1px solid #2d2d2d;
+      height: 6px;
+      padding-bottom: 0px;
+      border-top: 0
+}
+
+.modal-title {
+  color: #28a7ea;
+  font-weight: 600;
+}
+
+.modal-content .close:hover {
+  box-shadow: none !important;
+}
+
+.card {
+  margin-top: 25px;
+  margin-right: 10px;
+  transition: all .2s ease-in-out;
+}
+
+
+
+.card-title {
+  margin-bottom: .75rem;
+  font-weight: bolder;
+  font-size: 14px;
+  color: #28a7ea;
+}
+
+.card .card-body .card-text {
+  font-size: 14px !important;
+}
+
+.card-img-top {
+  background-color: #bdbdbd;
+}
+
+.card-body {
+  transition: background-color .2s ease-in-out;
+  cursor: pointer;
+}
+
+.card-body-list:hover {
+  color: #28a7ea;
+}
+
+.card-body-list:hover {
+  background-color: #f9f9f9;
+}
+.card-header {
+  display:flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,44 @@
+.Message {
+    text-align: center;
+    margin:auto;
+    width: 70%;
+    padding: 55px;
+    background-color: white;
+    position: relative;
+}
+
+.Circle {
+    content: '';
+    display: flex;
+    background:linear-gradient(to bottom, #28a7ea 0%,#2e93e6 50%,#207cca 100%,#409ce4 100%,#28a7ea 100%);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: -26px;
+    left: -18px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10%;
+}
+
+.Circle svg {
+    font-size: 26px;
+}
+
+.Message h4 {
+    font-weight: bold;
+}
+
+.Message h4::after {
+    content: '';
+    display: block;
+    width: 77px;
+    height: 3px;
+    background-color: #2e93e6;
+    margin: 4px auto;
+}
+

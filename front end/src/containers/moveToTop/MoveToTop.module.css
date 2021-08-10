@@ -1,0 +1,22 @@
+.MoveToTop {
+    position: fixed;
+    right: 20px; bottom: 20px;
+    width: 30px; height: 30px;
+    background: linear-gradient(to bottom, #28a7ea 0%,#2e93e6 50%,#207cca 100%,#409ce4 100%,#28a7ea 100%);    text-align:center;
+    cursor: pointer;
+    box-shadow: 0px 0px 1px 0px #1a1a1a;
+    transition: all 0.5s ease-in-out ;
+    border-radius: 50%;
+}
+
+.Arrow {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all .3s ease-in-out ;
+    color: rgb(226, 226, 226);
+}
+
+.MoveToTop:hover .Arrow {
+    color: #fff;
+}

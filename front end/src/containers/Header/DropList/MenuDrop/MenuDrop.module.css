@@ -1,0 +1,54 @@
+.MenuDrop {
+    position: fixed;
+    right: 0;
+    top: 70px;
+    width: 200px;
+    height: 100%;
+    text-align: center;
+    color: #f5f5f5;
+    background-color: #191919;
+    visibility: hidden;
+}
+
+.MakeAnimation {
+    visibility: visible;
+    animation: animation 0.6s ease-in-out 0s 1 none running
+}
+
+.HideDropList {
+    transition: all .4s ease-in-out;
+    opacity: 0;
+    transform: translate(200px);
+}
+
+
+.MenuDrop ul li {
+    font-weight: 500;
+    list-style: none;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(34, 34, 34, .7);
+    transition: all .3s ease-in-out;
+}
+
+.MenuDrop ul li a {
+  display: block;
+  padding: 10px;
+}
+
+.MenuDrop ul li:hover {
+    background-color: #ff9106;
+}
+
+@keyframes animation {
+    from {
+        transform: translate(200px);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+
+

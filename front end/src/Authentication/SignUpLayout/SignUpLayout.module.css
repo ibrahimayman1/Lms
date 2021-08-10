@@ -1,0 +1,87 @@
+.SignUpLayout {
+    /* background: linear-gradient(to bottom, #f5f5f5 0%,#f5f5f5 100%), url("../../images/icons.jpg");
+    background-size: cover;
+    background-blend-mode: multiply; */
+    margin-top: 140px;
+    margin-bottom: 45px;
+    height:500px;
+    text-align: center;
+}
+
+.SignUpLayout form {
+    text-align: center;
+}
+
+.SignUpLayout svg {
+    font-size: 79px;
+    color: rgb(218 236 251);
+}
+
+.SignUpLayoutBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.SignUpLayout button {
+    transition: all 0.5s ease-in-out;
+}
+.SignUpLayout button {
+    width: 140px;
+    height: 40px;
+    background-color: #6fcdff;
+    border: none;
+    color: #fff;
+    margin-top:10px;
+    background: linear-gradient(to bottom, #28a7ea 0%,#2e93e6 50%,#207cca 100%,#409ce4 100%,#28a7ea 100%);
+}
+  
+.SignUpLayout button:hover{
+    box-shadow: 0px 2px 11px 3px #ccc !important;
+}
+
+.SignUpLayoutBox, .HeaderContainer {
+    background-color: #fff;
+    flex-basis: 50%;
+}
+
+.HeaderContainer {
+    background: linear-gradient(to bottom, #28a7ea 0%,#2e93e6 50%,#207cca 100%,#409ce4 100%,#28a7ea 100%), url("../../images/balls.png");
+    background-blend-mode: overlay;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.HeaderContainer p {
+    color: rgb(218 236 251);
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.HeaderContainer h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #154b6d;
+    font-family: 'Open Sans';
+}
+
+.SignUpLayout input {
+    display: block;
+    outline: none;
+    padding: 13px;
+    border: 1px solid #eaeaea;
+    box-shadow: 0px 2px 7px -5px #ccc;
+    height: 41px;
+    color:#737373;
+    margin-top: 10px;
+}
+
+
+.SignUpLayout input:focus {
+    outline: none;
+}
+

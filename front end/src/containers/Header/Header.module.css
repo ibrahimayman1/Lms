@@ -1,0 +1,70 @@
+nav {
+  height: 95px;
+  background-color: #fff;
+  box-shadow: 0 2px 7px -4px #ccc;
+  width: 100%;
+  z-index: 10000;
+  position: fixed;
+}
+
+nav,button {
+  transition: all 0.5s ease-in-out;
+}
+
+nav ul{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: #606264;
+  font-weight: 600;
+}
+
+nav ul li{
+  display: inline;
+  margin-left: 35px;
+}
+
+nav ul li a{
+  transition: all .2s ease-in-out;
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav ul li a:hover {
+  color: #28a7ea;
+}
+
+nav button {
+  margin-left: 35px;
+}
+
+nav button:hover{
+  box-shadow: 0px 2px 11px 3px #ccc !important;
+}
+
+/* button span::after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f063";
+  color: #fff;
+  margin-left: 2px;
+  font-weight: 900;
+  display: none;
+} */
+
+.Brand {
+  height: 100%;
+  width: 170px;
+}
+
+.Logo {
+  max-width: 100%;
+  height: auto;
+  margin-top: 6px;
+}
+
+@media(max-width: 991px) {  
+  nav ul {
+    display: none;
+  }
+}
+
+

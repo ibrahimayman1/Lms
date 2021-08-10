@@ -1,0 +1,57 @@
+.DownFooter {
+    min-height: 60px;
+    background-color: #222;
+}
+
+.MadeBy {
+    display: block;
+    margin-top: 20px;
+    color: #d2d2d2;
+    font-size: 13px;
+}
+
+.Row {
+    justify-content: space-between;
+}
+
+.DownFooter svg {
+    font-size: 18px;
+}
+
+.Social {
+    margin-top: 10px;
+    color: #d2d2d2;
+}
+
+.Twitter:hover {
+    color: #1da1f2
+}
+.Fb:hover {
+    color: #0660a5
+}
+.YouTube:hover {
+    color: #ff0000
+}
+.Insta:hover {
+    color: #f215cd
+}
+
+.Twitter, .Fb, .Insta, .YouTube {
+    font-size: 36px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all .3s ease-in-out ;
+}
+
+
+@media (max-width: 767px) {
+    .Row {
+        flex-wrap: wrap;
+        text-align: center;
+        flex-direction: column;
+    }
+    .Social {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+}

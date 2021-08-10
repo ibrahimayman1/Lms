@@ -1,0 +1,32 @@
+.BelowNav {
+    /* background: url('../../images//waves.png') repeat-x linear-gradient(red,blue); */
+    height: 500px;
+    background: linear-gradient(to bottom, #28a7ea 0%,#2e93e6 50%,#207cca 100%,#409ce4 100%,#28a7ea 100%), url("../../../images/icons.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+    position: relative;
+    margin-top: 95px;
+}
+
+.TopImage {
+    height: auto;
+    width: 100%;
+}
+
+.BelowNav h1 {
+    color: #f0edff;
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.BelowNav p {
+    color: #eaeaea;
+    padding: 4px;
+    padding-left: 0px;
+}
+
+.BelowNav svg {
+    position: absolute;
+    bottom: -179px;
+    left: 0;
+}

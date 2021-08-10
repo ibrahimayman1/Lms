@@ -1,0 +1,13 @@
+.Header {
+    color: #28a7ea;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 4px;
+    width: 100%;
+}
+
+.Header h6 {
+    font-weight: 600;
+    margin-bottom: 0;
+}

@@ -1,0 +1,18 @@
+.UsersUseFcifu {
+    height: 165px;
+    background: linear-gradient(to bottom, #f5f5f5 0%,#f5f5f5 100%), url("../../../images/icons.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+    position: relative;
+    text-align: center;
+}
+
+.UsersUseFcifu svg {
+    font-size:44px;
+}
+
+.UsersUseFcifu h4 {
+    font-size: 34px;
+    font-weight: bolder;
+    color: #2381d0
+}

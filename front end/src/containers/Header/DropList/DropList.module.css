@@ -1,0 +1,26 @@
+.DropList {
+    display: flex;
+}
+
+.Drop {
+    font-size: 25px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.Drop:hover {
+    color:  #eb8516;
+    transition: all 0.2s ease-in-out;
+}
+
+@media(min-width: 991px) {
+    .DropList {
+      display: none;
+    }
+  }
+
+  @media(max-width:575px) {
+      .DropList {
+          margin-right: 2%;
+      }
+  }

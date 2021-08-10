@@ -1,0 +1,43 @@
+.QuickNavigation {
+    position: absolute;
+    cursor: pointer;    
+}
+
+.Navigation {
+    position: absolute;
+    top: 3px;
+    left: 221px;
+    padding: 12px;
+}
+
+.QuickNavigation svg {
+    font-size: 22px;
+    transition: all 0.2s ease-in-out ;
+    color: #fff;
+}
+
+.QuickNavigation svg:hover {
+    color: #dfdfdf;
+}
+
+.QuickNavigation ul {
+    cursor: pointer;
+    display: none;
+    list-style: none;
+    font-size: 13px;
+    background-color: #fff;
+    position: relative;
+    top: 40px;
+    left: 106px;
+}
+
+.QuickNavigation ul li {
+    padding: 10px;
+    font-weight: 600;
+    font-family: 'Open Sans';
+    transition: background-color .3s ease;
+}
+
+.QuickNavigation ul li:hover {
+    background-color: #d0efff;
+}

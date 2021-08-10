@@ -1,0 +1,21 @@
+.AssignmentReview {
+    text-align: center;
+    width: 100%;
+}
+
+.Body {
+    margin: auto;
+    width: 100%;
+    max-height: 500px;
+    overflow: auto;
+    padding: 7px;
+    border: 1px solid #ccc;
+}
+
+.Header {
+    width: 100%;
+    padding: 7px;
+    color: #fff;
+    margin-bottom: 8px;
+    background:linear-gradient(to bottom, #28a7ea 0%,#2e93e6 50%,#207cca 100%,#409ce4 100%,#28a7ea 100%)
+}

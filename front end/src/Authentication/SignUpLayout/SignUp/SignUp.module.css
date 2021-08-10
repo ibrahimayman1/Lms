@@ -1,0 +1,24 @@
+.ErrorMessage, .ApprovedMessage {
+    color: red;
+    font-size: 10px;
+    font-weight: bold;
+    display: block;
+}
+
+.ApprovedMessage {
+    color: seagreen;
+}
+
+/* .ErrorMessage::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f057";
+    color: red;
+    margin-left: 2px;
+    font-weight: 900;
+    display: none;
+}
+
+.ErrorMessage svg {
+    color:red;
+    margin: 0 5px 0 0;
+} */

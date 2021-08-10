@@ -1,0 +1,18 @@
+.Dashboard {
+    position: relative;
+    background: linear-gradient(to bottom, #28a7ea 0%,#2e93e6 50%,#207cca 100%,#409ce4 100%,#28a7ea 100%), url("../../../images/balls.png");
+    background-blend-mode: overlay;
+    padding: 51px !important;
+    height: 500px;
+}
+
+.DashboardHeader {
+    color: #f5f5f5;
+    font-size: 47px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.Box {
+    height: 400px;
+    width: 400px;
+}

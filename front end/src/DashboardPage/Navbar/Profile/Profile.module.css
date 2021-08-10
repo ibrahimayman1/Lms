@@ -1,0 +1,41 @@
+.Profile {
+    text-align: center;
+    padding: 10px 0px 6px 10px;
+}
+
+.PicCover {
+    background-color: #ccc;
+    height: 90px;
+    width: 92px;
+    margin: auto;
+    border-radius: 59%;
+    overflow: hidden;
+    position: relative;
+}
+
+.UploadImgLable {
+    position: absolute;
+    left: 65px;
+    color: #1795d8;
+    top: 33px;
+    background-color: #f4f4f4;
+    width: 33px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.PicCover:hover .UploadImgLable {
+    visibility: visible;
+}
+
+.Name {
+    font-size: 13px;
+    font-weight: bold;
+    color: #222;
+}
+
